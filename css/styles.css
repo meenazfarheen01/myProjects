@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(to bottom,#293241,black);
+    color: #F2E9E4;
+    font-family:'Varta',sans-serif;
+}
+h1 {
+    border-bottom: 2px solid #e5b63d;
+}
+.card{
+    background:#e5b63d;
+    color:#293241;
+}
+.btn-click{
+    background:#293241;
+    color:#F2E9E4;
+}
+.btn-click:hover{
+    color:#293241;
+    background:none;
+    border:1px solid #293241;
+}
+img{
+    height:200px;
+    width: 100%;
+    padding:8px;
+}
+img:hover{
+    transform:scale(0.95);
+    transition: 0.3s;
+}
